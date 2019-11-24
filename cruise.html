@@ -13,6 +13,11 @@
       rel="stylesheet"
       href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
     />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -22,7 +27,7 @@
     <div class="fl w-100">
       <header
         class="fl w-100 tc avenir fixed"
-        style="background-color: #DAA3A3; opacity: 0.8"
+        style="background-color: #DAA3A3; opacity: 0.8; z-index: 10000;"
       >
         <h1 class="mt2 mb0 baskerville fw1 f1 white">Jessica & Jim</h1>
         <nav class="tc mt4 w-100">
@@ -210,12 +215,16 @@
           </div>
           <div
             class="ph0 mh0 measure f4 lh-copy center"
-            style="position: absolute;"
+            style="position: relative;"
           >
             <p class="fw1 black i">
               Booking Information
             </p>
-            <div class="love-arrow"></div>
+            <a href="#bookingInfo"
+              ><i class="material-icons" style="color: #A20519;"
+                >keyboard_arrow_down</i
+              ></a
+            >
           </div>
         </div>
         <!-- second page -->
@@ -276,12 +285,16 @@
           </div>
           <div
             class="ph0 mh0 measure f4 lh-copy center"
-            style="position: absolute;"
+            style="position: relative;"
           >
             <p class="fw1 black i">
               What to Bring
             </p>
-            <div class="love-arrow"></div>
+            <a href="#whatToBring"
+              ><i class="material-icons" style="color: #A20519;"
+                >keyboard_arrow_down</i
+              ></a
+            >
           </div>
         </div>
         <!-- third page -->
@@ -362,12 +375,16 @@
           </div>
           <div
             class="ph0 mh0 measure tc f4 lh-copy center"
-            style="position: absolute;"
+            style="position: relative;"
           >
             <p class="fw1 black i">
               Wedding Party Itinerary/ Suggested Activities
             </p>
-            <div class="love-arrow"></div>
+            <a href="#activities"
+              ><i class="material-icons" style="color: #A20519;"
+                >keyboard_arrow_down</i
+              ></a
+            >
           </div>
         </div>
         <!-- fourth page -->
