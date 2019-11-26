@@ -1,25 +1,25 @@
-$background: #f9d7d0;
-$background2: #a20519;
-.love-arrow {
-  &:after,
-  &:before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-    border-left-width: 120px;
-    border-right-width: 120px;
-    border-top-width: 40px;
-    position: absolute;
-    left: 10px;
-  }
-  &:before {
-    border-top-color: $background2;
-    top: 30px;
-  }
-  &:after {
-    border-top-color: $background;
-    top: 29px;
-  }
-}
+// $background: #f9d7d0;
+// $background2: #a20519;
+// .love-arrow {
+//   &:after,
+//   &:before {
+//     content: "";
+//     width: 0;
+//     height: 0;
+//     border-style: solid;
+//     border-color: transparent;
+//     border-left-width: 120px;
+//     border-right-width: 120px;
+//     border-top-width: 40px;
+//     position: absolute;
+//     left: 10px;
+//   }
+//   &:before {
+//     border-top-color: $background2;
+//     top: 30px;
+//   }
+//   &:after {
+//     border-top-color: $background;
+//     top: 29px;
+//   }
+// }
