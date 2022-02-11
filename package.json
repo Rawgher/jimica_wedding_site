@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Rawgher/jimica_wedding_site#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
